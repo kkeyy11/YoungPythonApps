@@ -122,7 +122,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "ecommerce/static",  
     BASE_DIR / "portfolio/static",   
-    BASE_DIR / "common/static",  
+    BASE_DIR / "coffee/static",  
 ]
 
 
