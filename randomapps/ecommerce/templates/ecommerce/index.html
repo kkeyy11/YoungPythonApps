@@ -10,21 +10,22 @@
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+<link rel="icon" href="{% static 'img/favicon.ico' %}">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+<!-- Google Web Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<!-- Libraries Stylesheet -->
+<link rel="stylesheet" href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    {% load static %}
-    <link rel="stylesheet" href="{% static 'ecommerce/css/style.css' %}">
+<!-- Customized Bootstrap Stylesheet -->
+{% load static %}
+<link rel="stylesheet" href="{% static 'ecommerce/css/style.css' %}">
+
 
 </head>
 
@@ -136,6 +137,7 @@
                         <div class="navbar-nav mr-auto py-0">
                             <a href="/index" class="nav-item nav-link active">Home</a>
                             <a href="/shop" class="nav-item nav-link">Shop</a>
+                            <a href="/contact" class="nav-item nav-link">Contact</a>
                             
                         </div>
                         

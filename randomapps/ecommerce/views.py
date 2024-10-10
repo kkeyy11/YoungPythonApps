@@ -8,3 +8,6 @@ def index(request):
 def shop(request):
     context={}
     return render(request, "ecommerce/shop.html", context )
+def contact(request):
+    context={}
+    return render(request, "ecommerce/contact.html", context )
