@@ -3,14 +3,14 @@ from django.shortcuts import render
 # Create your views here.
 
 def home(request):
-    context={}
-    return render(request, "portfolio/home.html", context )
+
+    return render(request, "portfolio/home.html")
 def gameinfo(request):
-    context={}
-    return render(request, "portfolio/gameinfo.html", context )
+ 
+    return render(request, "portfolio/gameinfo.html" )
 def personalinfo(request):
-    context={}
-    return render(request, "portfolio/personalinfo.html", context )
+  
+    return render(request, "portfolio/personalinfo.html" )
 def social(request):
-    context={}
-    return render(request, "portfolio/social.html", context )
+
+    return render(request, "portfolio/social.html")

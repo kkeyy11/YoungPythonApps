@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'coffee.apps.CoffeeConfig',
     'portfolio.apps.PortfolioConfig',
     'ecommerce.apps.EcommerceConfig',
 ]
@@ -122,7 +121,7 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR / "ecommerce/static",  
     BASE_DIR / "portfolio/static",   
-    BASE_DIR / "coffee/static",  
+  
 ]
 
 
